@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Pet Store & Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #6dabe4;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('https://source.unsplash.com/1600x600/?pets,dogs,cats');
+            background-size: cover;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .services, .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6dabe4;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to Elegant Pet Store & Services</header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#products">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        The Best Care & Products for Your Pets
+    </div>
+    <div class="container">
+        <h2 id="services">Our Services</h2>
+        <div class="services">
+            <div class="card">🐕 Grooming</div>
+            <div class="card">🐾 Pet Training</div>
+            <div class="card">🐶 Pet Sitting</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="products">Shop Our Products</h2>
+        <div class="products">
+            <div class="card">🦴 Pet Toys</div>
+            <div class="card">🥘 Healthy Food</div>
+            <div class="card">🏠 Cozy Beds</div>
+        </div>
+    </div>
+    <footer id="contact">Contact Us: info@petstore.com | Follow us on Social Media</footer>
+</body>
+</html>
